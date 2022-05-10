@@ -1,0 +1,4 @@
+FROM quay.io/pittar/php74-ubi8-base:latest
+
+ADD index.php /var/www/html
+
