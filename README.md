@@ -20,3 +20,6 @@ podman build -t php74-ubi8-base .
 # From app dir.
 podman build -t php-app .
 ```
+
+Based on [this Red Hat Blog entry](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users#red_hat_enterprise_linux_and_docker).
+
