@@ -1,4 +1,4 @@
-# PHP 7.4 UBI Image - Without s2i
+# PHP 7.4 and 8.0 UBI8 Images - Without s2i
 
 ## Base
 
@@ -15,7 +15,13 @@ In both cases, you can build the images with podman or docker:
 
 ```
 # From base dir.
+cd base/7.4 
 podman build -t php74-ubi8-base .
+
+# OR, build PHP 8.0
+
+cd base/8.0
+podman build -t php80-ubi8-base .
 
 # From app dir.
 podman build -t php-app .
